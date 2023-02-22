@@ -32,7 +32,7 @@ const notifications = ref([
   },
   {
     id: "03",
-    avatar: "src/assets/avatar-rizky-hasanuddin.webp",
+    avatar: "/assets/avatar-rizky-hasanuddin.webp",
     name: "Rizky Hasanuddin",
     text: "sent you a private message",
     message: "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
@@ -41,16 +41,16 @@ const notifications = ref([
   },
   {
     id: "04",
-    avatar: "src/assets/avatar-kimberly-smith.webp",
+    avatar: "/assets/avatar-kimberly-smith.webp",
     name: "Kimberly Smith",
     text: "commented on your picture",
-    picture: "src/assets/image-chess.webp",
+    picture: "/assets/image-chess.webp",
     time: "1 week",
     read: true
   },
   {
     id: "05",
-    avatar: "src/assets/avatar-nathan-peterson.webp",
+    avatar: "/assets/avatar-nathan-peterson.webp",
     name: "Nathan Peterson",
     text: "reacted to your recent post",
     action: "5 end-game strategies to increase your win rate",
@@ -59,7 +59,7 @@ const notifications = ref([
   },
   {
     id: "06",
-    avatar: "src/assets/avatar-anna-kim.webp",
+    avatar: "/assets/avatar-anna-kim.webp",
     name: "Anna Kim",
     text: "left the group",
     action: "Chess Club",
