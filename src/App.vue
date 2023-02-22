@@ -6,7 +6,7 @@ import { ref, computed } from "@vue/reactivity"
 const notifications = ref([
   {
     id: "00",
-    avatar: "~/assets/avatar-mark-webber.webp",
+    avatar: "@/assets/avatar-mark-webber.webp",
     name: "Mark Webber",
     text: "reacted to your recent post",
     action: "My first tournament today!",
