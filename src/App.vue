@@ -6,7 +6,7 @@ import { ref, computed } from "@vue/reactivity"
 const notifications = ref([
   {
     id: "00",
-    avatar: "@/assets/avatar-mark-webber.webp",
+    avatar: "/assets/avatar-mark-webber.webp",
     name: "Mark Webber",
     text: "reacted to your recent post",
     action: "My first tournament today!",
@@ -15,7 +15,7 @@ const notifications = ref([
   },
   {
     id: "01",
-    avatar: "src/assets/avatar-angela-gray.webp",
+    avatar: "/assets/avatar-angela-gray.webp",
     name: "Angela Gray",
     text: "followed you",
     time: "5m",
@@ -23,7 +23,7 @@ const notifications = ref([
   },
   {
     id: "02",
-    avatar: "src/assets/avatar-jacob-thompson.webp",
+    avatar: "/assets/avatar-jacob-thompson.webp",
     name: "Jacob Thompson",
     text: "has joined your group",
     action: "Chess Club",
