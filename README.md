@@ -47,12 +47,10 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
 - [Vue](https://vuejs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
 - [Tailwind CSS](https://tailwindcss.com/) - For styles
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
@@ -75,7 +73,7 @@ const number = computed(() => {
   return number.value
 })
 ```
-```Vue Script Setup
+```vue
 <script setup>
 defineProps({
     notification: {
